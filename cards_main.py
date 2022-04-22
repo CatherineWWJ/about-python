@@ -3,7 +3,7 @@
 import cards_tools
 
 while True:
-    # TODO 显示功能菜单
+    # 显示功能菜单
     cards_tools.show_menu()
     action_str = input("请选择您需要进行的操作：")
     print("您选择的操作是【%s】" % action_str)
